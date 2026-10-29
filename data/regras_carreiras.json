@@ -1,0 +1,547 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "logica",
+      "label": "Resolver problemas com lógica",
+      "stage": "Afinidades técnicas"
+    },
+    {
+      "id": "matematica",
+      "label": "Matemática e estatística",
+      "stage": "Afinidades técnicas"
+    },
+    {
+      "id": "visual",
+      "label": "Design visual e experiência do usuário",
+      "stage": "Afinidades técnicas"
+    },
+    {
+      "id": "infra",
+      "label": "Infraestrutura, redes e servidores",
+      "stage": "Afinidades técnicas"
+    },
+    {
+      "id": "codigo",
+      "label": "Programar e construir aplicações",
+      "stage": "Afinidades técnicas"
+    },
+    {
+      "id": "dados",
+      "label": "Investigar e organizar dados",
+      "stage": "Afinidades técnicas"
+    },
+    {
+      "id": "seguranca",
+      "label": "Investigar riscos de segurança",
+      "stage": "Afinidades técnicas"
+    },
+    {
+      "id": "qualidade",
+      "label": "Testar e procurar defeitos",
+      "stage": "Afinidades técnicas"
+    },
+    {
+      "id": "gestao",
+      "label": "Comunicar, negociar e priorizar",
+      "stage": "Perfil pessoal"
+    },
+    {
+      "id": "aprendizado",
+      "label": "Aprender continuamente",
+      "stage": "Perfil pessoal"
+    },
+    {
+      "id": "plantao",
+      "label": "Disponibilidade para incidentes e plantões",
+      "stage": "Objetivos de carreira"
+    },
+    {
+      "id": "produto",
+      "label": "Interesse em impacto no negócio",
+      "stage": "Objetivos de carreira"
+    }
+  ],
+  "tracks": [
+    {
+      "id": "backend",
+      "name": "Back-end",
+      "weights": {
+        "logica": 5,
+        "codigo": 5,
+        "dados": 2,
+        "qualidade": 2
+      },
+      "penalties": [
+        {
+          "question": "codigo",
+          "below": 3,
+          "points": 12,
+          "reason": "Baixa afinidade com programar e construir aplicações"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Python",
+          "target": 3,
+          "priority": 1,
+          "study": "Estudar fundamentos de Python e praticar em exercícios; integrar ao projeto da trilha."
+        },
+        {
+          "name": "APIs HTTP",
+          "target": 3,
+          "priority": 2,
+          "study": "Estudar fundamentos de APIs HTTP e praticar em exercícios; integrar ao projeto da trilha."
+        },
+        {
+          "name": "SQL",
+          "target": 2,
+          "priority": 3,
+          "study": "Estudar fundamentos de SQL e praticar em exercícios; integrar ao projeto da trilha."
+        },
+        {
+          "name": "Git",
+          "target": 2,
+          "priority": 4,
+          "study": "Estudar fundamentos de Git e praticar em exercícios; integrar ao projeto da trilha."
+        }
+      ],
+      "certifications": [
+        "Certificação de fundamentos de programação (opcional)"
+      ],
+      "project": "API de biblioteca com autenticação, banco SQL, testes e documentação"
+    },
+    {
+      "id": "frontend",
+      "name": "Front-end/UX",
+      "weights": {
+        "visual": 5,
+        "codigo": 4,
+        "gestao": 2,
+        "produto": 2
+      },
+      "penalties": [
+        {
+          "question": "visual",
+          "below": 3,
+          "points": 12,
+          "reason": "Baixa afinidade com design visual e experiência do usuário"
+        }
+      ],
+      "skills": [
+        {
+          "name": "HTML e CSS",
+          "target": 3,
+          "priority": 1,
+          "study": "Estudar fundamentos de HTML e CSS e praticar em exercícios; integrar ao projeto da trilha."
+        },
+        {
+          "name": "JavaScript",
+          "target": 3,
+          "priority": 2,
+          "study": "Estudar fundamentos de JavaScript e praticar em exercícios; integrar ao projeto da trilha."
+        },
+        {
+          "name": "Acessibilidade",
+          "target": 2,
+          "priority": 3,
+          "study": "Estudar fundamentos de Acessibilidade e praticar em exercícios; integrar ao projeto da trilha."
+        },
+        {
+          "name": "Git",
+          "target": 2,
+          "priority": 4,
+          "study": "Estudar fundamentos de Git e praticar em exercícios; integrar ao projeto da trilha."
+        }
+      ],
+      "certifications": [
+        "Certificação de fundamentos de UX (opcional)"
+      ],
+      "project": "Interface responsiva e acessível com pesquisa de usuários e testes de usabilidade"
+    },
+    {
+      "id": "ciencia",
+      "name": "Cientista de Dados",
+      "weights": {
+        "matematica": 5,
+        "dados": 5,
+        "codigo": 3,
+        "logica": 3
+      },
+      "penalties": [
+        {
+          "question": "matematica",
+          "below": 3,
+          "points": 12,
+          "reason": "Baixa afinidade com matemática e estatística"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Estatística",
+          "target": 3,
+          "priority": 1,
+          "study": "Estudar fundamentos de Estatística e praticar em exercícios; integrar ao projeto da trilha."
+        },
+        {
+          "name": "Python",
+          "target": 3,
+          "priority": 2,
+          "study": "Estudar fundamentos de Python e praticar em exercícios; integrar ao projeto da trilha."
+        },
+        {
+          "name": "Machine Learning",
+          "target": 2,
+          "priority": 3,
+          "study": "Estudar fundamentos de Machine Learning e praticar em exercícios; integrar ao projeto da trilha."
+        },
+        {
+          "name": "SQL",
+          "target": 2,
+          "priority": 4,
+          "study": "Estudar fundamentos de SQL e praticar em exercícios; integrar ao projeto da trilha."
+        }
+      ],
+      "certifications": [
+        "Certificação de fundamentos de ciência de dados (opcional)"
+      ],
+      "project": "Análise de dados públicos com baseline, validação e explicação das métricas"
+    },
+    {
+      "id": "engenharia",
+      "name": "Engenheiro de Dados",
+      "weights": {
+        "dados": 5,
+        "codigo": 4,
+        "infra": 3,
+        "logica": 3
+      },
+      "penalties": [
+        {
+          "question": "codigo",
+          "below": 3,
+          "points": 12,
+          "reason": "Baixa afinidade com programar e construir aplicações"
+        }
+      ],
+      "skills": [
+        {
+          "name": "SQL",
+          "target": 3,
+          "priority": 1,
+          "study": "Estudar fundamentos de SQL e praticar em exercícios; integrar ao projeto da trilha."
+        },
+        {
+          "name": "Python",
+          "target": 3,
+          "priority": 2,
+          "study": "Estudar fundamentos de Python e praticar em exercícios; integrar ao projeto da trilha."
+        },
+        {
+          "name": "ETL",
+          "target": 3,
+          "priority": 3,
+          "study": "Estudar fundamentos de ETL e praticar em exercícios; integrar ao projeto da trilha."
+        },
+        {
+          "name": "Cloud",
+          "target": 2,
+          "priority": 4,
+          "study": "Estudar fundamentos de Cloud e praticar em exercícios; integrar ao projeto da trilha."
+        }
+      ],
+      "certifications": [
+        "Certificação de fundamentos de dados em nuvem (opcional)"
+      ],
+      "project": "Pipeline ETL de dados públicos com validação de qualidade e execução agendada"
+    },
+    {
+      "id": "cyber",
+      "name": "Cibersegurança",
+      "weights": {
+        "seguranca": 5,
+        "infra": 4,
+        "logica": 3,
+        "qualidade": 2
+      },
+      "penalties": [
+        {
+          "question": "seguranca",
+          "below": 3,
+          "points": 12,
+          "reason": "Baixa afinidade com investigar riscos de segurança"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Redes",
+          "target": 3,
+          "priority": 1,
+          "study": "Estudar fundamentos de Redes e praticar em exercícios; integrar ao projeto da trilha."
+        },
+        {
+          "name": "Linux",
+          "target": 2,
+          "priority": 2,
+          "study": "Estudar fundamentos de Linux e praticar em exercícios; integrar ao projeto da trilha."
+        },
+        {
+          "name": "Segurança",
+          "target": 3,
+          "priority": 3,
+          "study": "Estudar fundamentos de Segurança e praticar em exercícios; integrar ao projeto da trilha."
+        },
+        {
+          "name": "Python",
+          "target": 2,
+          "priority": 4,
+          "study": "Estudar fundamentos de Python e praticar em exercícios; integrar ao projeto da trilha."
+        }
+      ],
+      "certifications": [
+        "Certificação de fundamentos de segurança (opcional)"
+      ],
+      "project": "Laboratório local autorizado com análise de logs e relatório de correções"
+    },
+    {
+      "id": "devops",
+      "name": "DevOps/SRE",
+      "weights": {
+        "infra": 5,
+        "codigo": 3,
+        "qualidade": 3,
+        "plantao": 4
+      },
+      "penalties": [
+        {
+          "question": "plantao",
+          "below": 3,
+          "points": 12,
+          "reason": "Baixa afinidade com disponibilidade para incidentes e plantões"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Linux",
+          "target": 3,
+          "priority": 1,
+          "study": "Estudar fundamentos de Linux e praticar em exercícios; integrar ao projeto da trilha."
+        },
+        {
+          "name": "Docker",
+          "target": 3,
+          "priority": 2,
+          "study": "Estudar fundamentos de Docker e praticar em exercícios; integrar ao projeto da trilha."
+        },
+        {
+          "name": "CI/CD",
+          "target": 3,
+          "priority": 3,
+          "study": "Estudar fundamentos de CI/CD e praticar em exercícios; integrar ao projeto da trilha."
+        },
+        {
+          "name": "Observabilidade",
+          "target": 2,
+          "priority": 4,
+          "study": "Estudar fundamentos de Observabilidade e praticar em exercícios; integrar ao projeto da trilha."
+        }
+      ],
+      "certifications": [
+        "Certificação de fundamentos de containers (opcional)"
+      ],
+      "project": "Aplicação com pipeline CI/CD, containers, métricas e simulação de recuperação"
+    },
+    {
+      "id": "cloud",
+      "name": "Cloud Architecture",
+      "weights": {
+        "infra": 5,
+        "logica": 3,
+        "seguranca": 3,
+        "gestao": 2
+      },
+      "penalties": [
+        {
+          "question": "infra",
+          "below": 3,
+          "points": 12,
+          "reason": "Baixa afinidade com infraestrutura, redes e servidores"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cloud",
+          "target": 3,
+          "priority": 1,
+          "study": "Estudar fundamentos de Cloud e praticar em exercícios; integrar ao projeto da trilha."
+        },
+        {
+          "name": "Redes",
+          "target": 3,
+          "priority": 2,
+          "study": "Estudar fundamentos de Redes e praticar em exercícios; integrar ao projeto da trilha."
+        },
+        {
+          "name": "Segurança",
+          "target": 2,
+          "priority": 3,
+          "study": "Estudar fundamentos de Segurança e praticar em exercícios; integrar ao projeto da trilha."
+        },
+        {
+          "name": "Infraestrutura como código",
+          "target": 2,
+          "priority": 4,
+          "study": "Estudar fundamentos de Infraestrutura como código e praticar em exercícios; integrar ao projeto da trilha."
+        }
+      ],
+      "certifications": [
+        "Certificação de fundamentos de nuvem (opcional)"
+      ],
+      "project": "Arquitetura documentada com rede, controle de acesso, custos estimados e IaC"
+    },
+    {
+      "id": "mobile",
+      "name": "Mobile",
+      "weights": {
+        "codigo": 5,
+        "visual": 3,
+        "logica": 3,
+        "produto": 2
+      },
+      "penalties": [
+        {
+          "question": "codigo",
+          "below": 3,
+          "points": 12,
+          "reason": "Baixa afinidade com programar e construir aplicações"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Dart/Flutter",
+          "target": 3,
+          "priority": 1,
+          "study": "Estudar fundamentos de Dart/Flutter e praticar em exercícios; integrar ao projeto da trilha."
+        },
+        {
+          "name": "APIs HTTP",
+          "target": 2,
+          "priority": 2,
+          "study": "Estudar fundamentos de APIs HTTP e praticar em exercícios; integrar ao projeto da trilha."
+        },
+        {
+          "name": "Testes mobile",
+          "target": 2,
+          "priority": 3,
+          "study": "Estudar fundamentos de Testes mobile e praticar em exercícios; integrar ao projeto da trilha."
+        },
+        {
+          "name": "Git",
+          "target": 2,
+          "priority": 4,
+          "study": "Estudar fundamentos de Git e praticar em exercícios; integrar ao projeto da trilha."
+        }
+      ],
+      "certifications": [
+        "Certificação de fundamentos de desenvolvimento mobile (opcional)"
+      ],
+      "project": "Aplicativo com consumo de API, cache offline e testes de navegação"
+    },
+    {
+      "id": "qa",
+      "name": "QA",
+      "weights": {
+        "qualidade": 5,
+        "logica": 4,
+        "codigo": 3,
+        "gestao": 2
+      },
+      "penalties": [
+        {
+          "question": "codigo",
+          "below": 3,
+          "points": 12,
+          "reason": "Baixa afinidade com programar e construir aplicações"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Testes de software",
+          "target": 3,
+          "priority": 1,
+          "study": "Estudar fundamentos de Testes de software e praticar em exercícios; integrar ao projeto da trilha."
+        },
+        {
+          "name": "Automação de testes",
+          "target": 3,
+          "priority": 2,
+          "study": "Estudar fundamentos de Automação de testes e praticar em exercícios; integrar ao projeto da trilha."
+        },
+        {
+          "name": "APIs HTTP",
+          "target": 2,
+          "priority": 3,
+          "study": "Estudar fundamentos de APIs HTTP e praticar em exercícios; integrar ao projeto da trilha."
+        },
+        {
+          "name": "Git",
+          "target": 2,
+          "priority": 4,
+          "study": "Estudar fundamentos de Git e praticar em exercícios; integrar ao projeto da trilha."
+        }
+      ],
+      "certifications": [
+        "Certificação de fundamentos de testes (opcional)"
+      ],
+      "project": "Plano de testes com automação de API e interface e relatório de defeitos"
+    },
+    {
+      "id": "product",
+      "name": "Product Management",
+      "weights": {
+        "gestao": 5,
+        "produto": 5,
+        "dados": 2,
+        "visual": 2
+      },
+      "penalties": [
+        {
+          "question": "gestao",
+          "below": 3,
+          "points": 12,
+          "reason": "Baixa afinidade com comunicar, negociar e priorizar"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Discovery",
+          "target": 3,
+          "priority": 1,
+          "study": "Estudar fundamentos de Discovery e praticar em exercícios; integrar ao projeto da trilha."
+        },
+        {
+          "name": "Priorização",
+          "target": 3,
+          "priority": 2,
+          "study": "Estudar fundamentos de Priorização e praticar em exercícios; integrar ao projeto da trilha."
+        },
+        {
+          "name": "Métricas de produto",
+          "target": 3,
+          "priority": 3,
+          "study": "Estudar fundamentos de Métricas de produto e praticar em exercícios; integrar ao projeto da trilha."
+        },
+        {
+          "name": "Comunicação",
+          "target": 3,
+          "priority": 4,
+          "study": "Estudar fundamentos de Comunicação e praticar em exercícios; integrar ao projeto da trilha."
+        }
+      ],
+      "certifications": [
+        "Certificação de fundamentos de produto (opcional)"
+      ],
+      "project": "Estudo de caso com entrevistas, problema validado, backlog, protótipo e métricas"
+    }
+  ]
+}
